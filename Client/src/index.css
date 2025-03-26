@@ -1,0 +1,21 @@
+/* src/index.css */
+
+/* Tailwind 기본 스타일 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 글로벌 스타일 설정 */
+@layer base {
+  body {
+    font-family: 'Pretendard', sans-serif; /* Pretendard 폰트 */
+    background-color: #fff; /* 배경색: 흰색 */
+    color: #333; /* 텍스트 색: 검은색 */
+    margin: 0; /* 기본 여백 제거 */
+    padding : 0;
+
+  }
+
+  /* 기타 글로벌 스타일 추가 가능 */
+
+}
